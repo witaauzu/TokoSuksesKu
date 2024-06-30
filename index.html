@@ -1,0 +1,29 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko SuksesKu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Selamat Datang di Toko SuksesKu</h1>
+        <div id="menu">
+            <h2>Menu:</h2>
+            <ol>
+                <li>Tambahkan item</li>
+                <li>Batalkan item</li>
+                <li>Total Belanja</li>
+                <li>Tampilkan struk</li>
+                <li>Keluar tanpa struk</li>
+            </ol>
+            <input type="number" id="menuChoice" min="1" max="5">
+            <button onclick="handleMenuChoice()">Ok</button>
+        </div>
+        <div id="content"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
